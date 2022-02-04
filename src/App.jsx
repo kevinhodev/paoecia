@@ -1,11 +1,11 @@
 import { CssBaseline } from "@material-ui/core";
-import SignIn from "./Components/Signin/Signin";
+import SignUp from "./Components/Signup/Signup";
 
 export default function App() {
   return (
     <>
       <CssBaseline />
-      <SignIn></SignIn>
+      <SignUp></SignUp>
     </>
   );
 }
